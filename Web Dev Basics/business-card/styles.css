@@ -1,0 +1,28 @@
+body {
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.card {
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #90e0ef;
+    border-bottom: 10px solid #03045e;
+}
+
+.aside-text {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: #ffe6a7;
+    border-bottom: 10px solid #432818;
+    transition: ease-in-out 1s;
+}
